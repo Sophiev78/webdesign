@@ -1,0 +1,112 @@
+.portfolioDesign h2{
+    position: absolute;
+    top:40%;
+    left: 30%;
+}
+.buttons{
+    margin-left:30%;
+}
+
+.portfolioDesign .btn-caroussel{
+    border-radius: 50%;
+    height: 5vh;
+    width: 7%;
+    margin:1%;
+    border:1px solid var(--orange);
+    margin-bottom: 20px;
+}
+
+.btn-active{
+    background: var(--orange);
+}
+
+#voir{
+    text-decoration: none;
+    font-family: var(--title-1);
+    font-size: 2rem;
+    padding: 5%;
+    color: #000 ;
+    margin-left:30%;
+}
+#voir:hover{
+    color: var(--orange);
+}
+
+ @media screen  and (max-width:900px){
+    .portfolioDesign{
+        margin: 20% auto;
+    }
+    .image img{
+        width: 400px;
+    }
+    .buttons{
+        margin:0 auto;
+    }
+    .portfolioDesign .btn-caroussel{
+        width: 10%;
+    }
+    #voir{
+        margin:0 auto;
+    }
+    
+}
+
+@media screen  and (min-width:901px) and (max-width:991px){
+    .portfolioDesign{
+        margin: 20% auto;
+    }
+    .image img{
+        width: 800px;
+    }
+    .buttons{
+        margin:0 auto;
+    }
+    .portfolioDesign .btn-caroussel{
+        width: 10%;
+    }
+    #voir{
+        margin:0 auto;
+    }
+}
+
+@media screen  and (min-width:992px) and (max-width:1200px){
+    .portfolioDesign{
+        margin: -40% 40%;
+    }
+    .buttons{
+        margin:0 auto;
+    }
+    #voir{
+        margin:0 auto;
+    }
+}
+
+@media screen  and (min-width:1201px) and (max-width:1700px){
+    .portfolioDesign{
+        margin: -40% 40%;
+    }
+    .buttons{
+        margin:0 auto;
+    }
+    #voir{
+        margin:0 auto;
+    }
+}
+
+@media screen  and (min-width:2001px) and (max-width:3111px){
+    .portfolioDesign{
+        margin-top:-30%;
+    }
+    .image img{
+        width: 1000px;
+    }
+    .buttons{
+        margin:0 auto;
+    }
+    .portfolioDesign .btn-caroussel{
+        width: 6%;
+    }
+    #voir{
+        margin:0 auto;
+    }
+} 

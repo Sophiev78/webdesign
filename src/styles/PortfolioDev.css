@@ -1,0 +1,63 @@
+.portfolioDev {
+    margin: -40% 40%;
+    width: 50%;
+    background: var(--gradient-orange);
+}
+
+.portfolioDev .btn-caroussel {
+    border-radius: 50%;
+    height: 5vh;
+    width: 5%;
+    margin:1%;
+    border:none;
+    margin-bottom: 20px;
+
+}.portfolioDev .selected{
+    background-color: #000;
+}
+
+
+@media screen  and (max-width:768px){
+    .portfolioDev{
+        margin:20% 0 20% 0;
+        width: auto;
+    }
+    .oneElement a img{
+        width: 350px;
+    }
+    .portfolioDev .btn-caroussel{
+        width: 10%;
+    } 
+}
+
+@media screen  and (min-width:769px) and (max-width:900px){
+    .portfolioDev{
+        margin:10%;
+        width: auto; 
+    }
+    .portfolioDev .btn-caroussel{
+        width: 10%;
+    } 
+}
+
+@media screen  and (min-width:901px) and (max-width:991px){
+    .portfolioDev{
+        margin:10%;
+        width: auto; 
+    }
+    .portfolioDev .btn-caroussel{
+        width: 10%;
+    } 
+   
+}
+
+@media screen  and (min-width:1700px) and (max-width:2200px){
+    .portfolioDev{
+        margin-top:-40%;
+    }
+}
+@media screen  and (min-width:2372px) and (max-width:3000px){
+    .portfolioDev{
+        margin-top:-30%;
+    }
+}

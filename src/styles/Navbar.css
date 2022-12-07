@@ -1,0 +1,81 @@
+nav{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+    gap:4rem;
+    cursor: none;
+}
+
+.menu{
+    font-size: 2rem;
+    font-family: var(--title-1);
+    text-transform: uppercase;
+    border-top: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .cursor{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    top:0;
+    background-color: var(--orange);
+}
+
+.menu a {
+    color:#fff;
+    text-decoration: none;    cursor: none;
+
+}
+
+.menu a:hover{
+    color: var(--orange);
+}
+
+.menu .active{
+    color: var(--orange);
+    text-decoration: underline;
+}
+
+
+/*////////////////////////////*/
+
+/* menu burger et croix */
+
+#btn-nav{
+    border: none;
+    font-size: 2rem;
+    position: absolute;
+    left: 0;
+    top:0;
+    color:#fff;
+}
+#btn-nav:hover{
+    color:var(--orange);
+}
+
+/*////////////////////////////*/
+
+/* ne pas voir le bouton menu au dessus de 900px*/
+@media screen  and (min-width:992px){
+    #btn-nav{
+        display: none;
+    }
+}
+
+/* petits écrans*/
+
+@media screen  and (max-width:991px){
+    nav{
+        height: 70vh;
+    }
+    #btn-nav{
+        background-color: #000;
+    }
+}
