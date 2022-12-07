@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cv-react/static/css/main.5904fea7.css",
+    "main.js": "/cv-react/static/js/main.069cee61.js",
+    "static/media/restaurants-min.png": "/cv-react/static/media/restaurants-min.2e833457a4595b89ca77.png",
+    "static/media/blossom.png": "/cv-react/static/media/blossom.91460e938e34e746fe76.png",
+    "static/media/mode.png": "/cv-react/static/media/mode.85240f7a0822643cdea6.png",
+    "static/media/profil.png": "/cv-react/static/media/profil.d30d7544d558aae1bab1.png",
+    "static/media/macarons-min.png": "/cv-react/static/media/macarons-min.6dac75345a54f5d574be.png",
+    "static/media/oeuf_sans_le_coq-min.png": "/cv-react/static/media/oeuf_sans_le_coq-min.797a9d42883b90ccca43.png",
+    "static/media/crypto-min.png": "/cv-react/static/media/crypto-min.f042835c13fe32ebf1c4.png",
+    "static/media/macarons.png": "/cv-react/static/media/macarons.6ca8af0c2518687e57a6.png",
+    "static/media/neige2.png": "/cv-react/static/media/neige2.16c34b5c01b61226f7b5.png",
+    "static/media/voyage.png": "/cv-react/static/media/voyage.e100d172ee267a5cabe7.png",
+    "static/media/sweety.png": "/cv-react/static/media/sweety.df2eca1d970cd6840738.png",
+    "static/media/music-store.png": "/cv-react/static/media/music-store.d0c69ab2b9de2c6ea374.png",
+    "static/media/snake.png": "/cv-react/static/media/snake.1bcac345fbe40654243d.png",
+    "index.html": "/cv-react/index.html",
+    "main.5904fea7.css.map": "/cv-react/static/css/main.5904fea7.css.map",
+    "main.069cee61.js.map": "/cv-react/static/js/main.069cee61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5904fea7.css",
+    "static/js/main.069cee61.js"
+  ]
+}
