@@ -61,7 +61,7 @@ const PortfolioDev = () => {
 
     return (
         <div className="container portfolioDev text-center">
-            <Title value="Websites creation "/>
+            <Title value="Websites"/>
             <div className="carousselDev">
                 {carousselDev.map(({image,desc,href}, index)=>(
                     <div className={`oneElement ${selected === index ? "" : "d-none"}`}key={index}>

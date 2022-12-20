@@ -1,12 +1,21 @@
 .portfolioDesign h2{
-    position: absolute;
-    top:40%;
-    left: 30%;
+    color: var(--orange)
 }
+
+.medias p{
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: var(--orange);
+}
+
+.medias img{
+    margin-top: -400px;
+}
+
 .buttons{
     margin-left:30%;
 }
-
 .portfolioDesign .btn-caroussel{
     border-radius: 50%;
     height: 5vh;
@@ -36,8 +45,12 @@
     .portfolioDesign{
         margin: 20% auto;
     }
-    .image img{
-        width: 400px;
+    .medias img{
+        width: 350px;
+        margin-top: -200px;
+    }
+    .medias video{
+        width: 350px;
     }
     .buttons{
         margin:0 auto;
@@ -55,9 +68,6 @@
     .portfolioDesign{
         margin: 20% auto;
     }
-    .image img{
-        width: 800px;
-    }
     .buttons{
         margin:0 auto;
     }
@@ -72,6 +82,12 @@
 @media screen  and (min-width:992px) and (max-width:1200px){
     .portfolioDesign{
         margin: -40% 40%;
+    }
+    .medias img{
+        width: 800px;
+    }
+    .medias video{
+        width: 800px;
     }
     .buttons{
         margin:0 auto;
@@ -93,11 +109,26 @@
     }
 }
 
+@media screen  and (min-width:1701px) and (max-width:2000px){
+    .portfolioDesign{
+        margin: -40% 40%;
+    }
+    .buttons{
+        margin:0 auto;
+    }
+    #voir{
+        margin:0 auto;
+    }
+}
+
 @media screen  and (min-width:2001px) and (max-width:3111px){
     .portfolioDesign{
         margin-top:-30%;
     }
-    .image img{
+    .medias img{
+        width: 1000px;
+    }
+    .medias video{
         width: 1000px;
     }
     .buttons{

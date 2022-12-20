@@ -1,5 +1,5 @@
 import "../styles/Home.css";
-import profil from "../assets/profil.png";
+import profil from "../assets/profil_comp.mp4";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsFillTelephoneFill,BsEnvelopeFill } from "react-icons/bs";
 import {motion} from "framer-motion";
@@ -27,7 +27,8 @@ const Home = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay:0.3, duration:0.6, type: "tween" }}
                 >
-                    <img src={profil} alt="profil_photo" width={400}/>
+                     <video muted="true" autoplay="true"src={profil} type="video/mp4" width={400}/>
+
                 </motion.div>
             </div>
             <motion.div className="networks mt-5"

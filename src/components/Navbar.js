@@ -77,7 +77,7 @@ const Navbar = () => {
                     >
                     </motion.div>
                     <NavLink to="/" className={(nav)=> nav.isActive? "active":""}>
-                        Home
+                        Profil
                     </NavLink>
                 </div>
                 <div className='menu'onMouseEnter={textEnter} onMouseLeave={textLeave}>
