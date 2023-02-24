@@ -66,7 +66,7 @@ const PortfolioDev = () => {
                 {carousselDev.map(({image,desc,href}, index)=>(
                     <div className={`oneElement ${selected === index ? "" : "d-none"}`}key={index}>
                         <a href={href} target="blank">
-                            <img src={image} alt="dev_project" width={500}/>
+                            <img src={image} alt="développement_web_langages_informatiques" width={500}/>
                             </a>
                         <h3>{desc}</h3>
                     </div>
