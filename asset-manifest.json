@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/cv-react/static/css/main.daebefef.css",
-    "main.js": "/cv-react/static/js/main.aa9566c9.js",
+    "main.css": "/cv-react/static/css/main.bbb81025.css",
+    "main.js": "/cv-react/static/js/main.b6e97b16.js",
+    "static/media/respiration_comp.mp4": "/cv-react/static/media/respiration_comp.c257bd25c2be8a9e00ca.mp4",
     "static/media/sapin_comp.mp4": "/cv-react/static/media/sapin_comp.ffa0c839966a0c91e099.mp4",
     "static/media/restaurants-min.png": "/cv-react/static/media/restaurants-min.2e833457a4595b89ca77.png",
     "static/media/blossom.png": "/cv-react/static/media/blossom.91460e938e34e746fe76.png",
@@ -11,6 +12,7 @@
     "static/media/crypto-min.png": "/cv-react/static/media/crypto-min.f042835c13fe32ebf1c4.png",
     "static/media/macarons.png": "/cv-react/static/media/macarons.6ca8af0c2518687e57a6.png",
     "static/media/neige2.png": "/cv-react/static/media/neige2.16c34b5c01b61226f7b5.png",
+    "static/media/prototype-min.jpg": "/cv-react/static/media/prototype-min.76125a7a2b56fc085187.jpg",
     "static/media/fleurs_comp.mp4": "/cv-react/static/media/fleurs_comp.43701da47a28aa0687ba.mp4",
     "static/media/voyage.png": "/cv-react/static/media/voyage.e100d172ee267a5cabe7.png",
     "static/media/sweety.png": "/cv-react/static/media/sweety.df2eca1d970cd6840738.png",
@@ -18,11 +20,11 @@
     "static/media/profil_comp.mp4": "/cv-react/static/media/profil_comp.f1a7bca972c2a137ad92.mp4",
     "static/media/snake.png": "/cv-react/static/media/snake.1bcac345fbe40654243d.png",
     "index.html": "/cv-react/index.html",
-    "main.daebefef.css.map": "/cv-react/static/css/main.daebefef.css.map",
-    "main.aa9566c9.js.map": "/cv-react/static/js/main.aa9566c9.js.map"
+    "main.bbb81025.css.map": "/cv-react/static/css/main.bbb81025.css.map",
+    "main.b6e97b16.js.map": "/cv-react/static/js/main.b6e97b16.js.map"
   },
   "entrypoints": [
-    "static/css/main.daebefef.css",
-    "static/js/main.aa9566c9.js"
+    "static/css/main.bbb81025.css",
+    "static/js/main.b6e97b16.js"
   ]
 }
