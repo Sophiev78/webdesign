@@ -4,6 +4,7 @@ import restaurants from "../assets/portfolioWebdesign/restaurants-min.png";
 import macarons from "../assets/portfolioWebdesign/macarons-min.png";
 import crypto from "../assets/portfolioWebdesign/crypto-min.png";
 import prototype from "../assets/portfolioWebdesign/prototype-min.jpg";
+import avion from "../assets/portfolioWebdesign/avion_comp.mp4";
 import fleurs from "../assets/portfolioWebdesign/fleurs_comp.mp4";
 import sapin from "../assets/portfolioWebdesign/sapin_comp.mp4";
 import respiration from "../assets/portfolioWebdesign/respiration_comp.mp4";
@@ -15,6 +16,10 @@ const PortfolioWebdesign = () => {
     const [selected, setSelected] = useState(0);
 
     const wireframeList= [
+        {
+            video: avion,
+            desc: "Illustrator - After Effects"
+        },
         {
             video: fleurs,
             desc: "Illustrator - After Effects"
