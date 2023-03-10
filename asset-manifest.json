@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/webdesign/static/css/main.bbb81025.css",
-    "main.js": "/webdesign/static/js/main.5c0e8598.js",
+    "main.js": "/webdesign/static/js/main.8707ade8.js",
     "static/media/respiration_comp.mp4": "/webdesign/static/media/respiration_comp.c257bd25c2be8a9e00ca.mp4",
     "static/media/sapin_comp.mp4": "/webdesign/static/media/sapin_comp.ffa0c839966a0c91e099.mp4",
-    "static/media/avion_comp.mp4": "/webdesign/static/media/avion_comp.42d2470dcf1891de3c5b.mp4",
+    "static/media/avion_comp.mp4": "/webdesign/static/media/avion_comp.f5664710794be4280037.mp4",
     "static/media/restaurants-min.png": "/webdesign/static/media/restaurants-min.2e833457a4595b89ca77.png",
     "static/media/blossom.png": "/webdesign/static/media/blossom.91460e938e34e746fe76.png",
     "static/media/mode.png": "/webdesign/static/media/mode.85240f7a0822643cdea6.png",
@@ -22,10 +22,10 @@
     "static/media/snake.png": "/webdesign/static/media/snake.1bcac345fbe40654243d.png",
     "index.html": "/webdesign/index.html",
     "main.bbb81025.css.map": "/webdesign/static/css/main.bbb81025.css.map",
-    "main.5c0e8598.js.map": "/webdesign/static/js/main.5c0e8598.js.map"
+    "main.8707ade8.js.map": "/webdesign/static/js/main.8707ade8.js.map"
   },
   "entrypoints": [
     "static/css/main.bbb81025.css",
-    "static/js/main.5c0e8598.js"
+    "static/js/main.8707ade8.js"
   ]
 }
